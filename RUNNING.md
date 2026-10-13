@@ -1,0 +1,1 @@
+# Run Atelier\n\nRequires the .NET 10 SDK on Windows.\n\n\`\`\`powershell\ncd apps/desktop\ndotnet run\n\`\`\`\n\nThe MVP lets a user choose a local workspace and records explicit review approvals in a local audit log. It does not call an AI provider, upload files, or edit the workspace.\n
