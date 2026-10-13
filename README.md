@@ -1,29 +1,39 @@
 # Atelier
 
-Atelier is an open, local-first desktop workspace concept for collaborating with AI on folders, notes, and structured tasks.
+**Atelier is a local-first Windows desktop workspace that makes sensitive AI-assisted work explicit and reviewable.** It is an original clean-room Magnexis project: no third-party source, branding, assets, protocols, or recovered implementation material is included.
 
-It is an original clean-room design. It does not contain third-party source code, branding, assets, protocols, or recovered implementation material.
+## What v1.2.0 does
 
-## Start here
+- Selects and restores a local workspace reference.
+- Saves a local workspace note across restarts.
+- Records explicit write/network review choices in a local audit log.
+- Lets the user clear that local audit log.
 
-- [Product and UX specification](docs/CLEAN_ROOM_DESIGN.md)
+It intentionally does **not** read workspace contents automatically, modify files, call an AI provider, upload data, or collect telemetry.
+
+## Install and run
+
+Download the Windows x64 ZIP from [Releases](../../releases), extract it, and run `Atelier.exe`. The .NET 10 Desktop Runtime is required. Developers can instead follow [RUNNING.md](RUNNING.md).
+
+## Product promises
+
+| Area | Current behavior |
+|---|---|
+| Data | Stored locally under `%LOCALAPPDATA%\\Magnexis\\Atelier` |
+| Network | No network behavior in v1.2.0 |
+| Permissions | Review decisions are explicit and locally audited |
+| Telemetry | None |
+
+## Documentation
+
 - [Architecture](ARCHITECTURE.md)
-- [Roadmap](ROADMAP.md)
 - [Security policy](SECURITY.md)
-- [Development plan](docs/DEVELOPMENT.md)
-- [Initial TypeScript policy contracts](packages/contracts/README.md)
-- [Design tokens](atelier-design-tokens.json)
+- [Roadmap](ROADMAP.md)
+- [Release notes](docs/releases/1.2.0.md)
+- [Media-capture checklist](docs/MEDIA.md)
 - [Contributing](CONTRIBUTING.md)
 
-## Principles
+## Media
 
-- Local work without an account
-- Explicit approval for sensitive actions
-- Provider portability
-- User-owned files and configuration
-- No telemetry by default
+We publish only authentic captures from a runnable build. The current capture checklist is tracked in [docs/MEDIA.md](docs/MEDIA.md); no conceptual mockups are presented as product footage.
 
-## Status
-
-Implementation-ready foundation. The first runnable desktop slice has not yet been published.
-\n## Run the desktop MVP\n\nWindows with the .NET 10 SDK: [run Atelier](RUNNING.md).\n
