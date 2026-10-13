@@ -1,0 +1,16 @@
+name: Feature proposal
+description: Propose a focused, original improvement to Atelier.
+labels: ["proposal"]
+body:
+  - type: textarea
+    attributes:
+      label: User outcome
+      description: What should a person be able to accomplish?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Security and privacy impact
+      description: Which permissions, files, network calls, or secrets are affected?
+    validations:
+      required: true
