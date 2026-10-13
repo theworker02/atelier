@@ -7,6 +7,11 @@ It is an original clean-room design. It does not contain third-party source code
 ## Start here
 
 - [Product and UX specification](docs/CLEAN_ROOM_DESIGN.md)
+- [Architecture](ARCHITECTURE.md)
+- [Roadmap](ROADMAP.md)
+- [Security policy](SECURITY.md)
+- [Development plan](docs/DEVELOPMENT.md)
+- [Initial TypeScript policy contracts](packages/contracts/README.md)
 - [Design tokens](atelier-design-tokens.json)
 - [Contributing](CONTRIBUTING.md)
 
@@ -20,4 +25,4 @@ It is an original clean-room design. It does not contain third-party source code
 
 ## Status
 
-Design specification. No application implementation has been published yet.
+Implementation-ready foundation. The first runnable desktop slice has not yet been published.
