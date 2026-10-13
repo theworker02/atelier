@@ -1,2 +1,23 @@
-# atelier
-An original, local-first desktop AI workspace design from Magnexis.
+# Atelier
+
+Atelier is an open, local-first desktop workspace concept for collaborating with AI on folders, notes, and structured tasks.
+
+It is an original clean-room design. It does not contain third-party source code, branding, assets, protocols, or recovered implementation material.
+
+## Start here
+
+- [Product and UX specification](docs/CLEAN_ROOM_DESIGN.md)
+- [Design tokens](atelier-design-tokens.json)
+- [Contributing](CONTRIBUTING.md)
+
+## Principles
+
+- Local work without an account
+- Explicit approval for sensitive actions
+- Provider portability
+- User-owned files and configuration
+- No telemetry by default
+
+## Status
+
+Design specification. No application implementation has been published yet.
