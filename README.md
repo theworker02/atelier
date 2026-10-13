@@ -26,3 +26,4 @@ It is an original clean-room design. It does not contain third-party source code
 ## Status
 
 Implementation-ready foundation. The first runnable desktop slice has not yet been published.
+\n## Run the desktop MVP\n\nWindows with the .NET 10 SDK: [run Atelier](RUNNING.md).\n
