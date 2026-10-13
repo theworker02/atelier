@@ -1,0 +1,22 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "color": {
+    "canvas": { "$type": "color", "$value": "#111315" },
+    "surface": { "$type": "color", "$value": "#191C1F" },
+    "surfaceRaised": { "$type": "color", "$value": "#22262A" },
+    "border": { "$type": "color", "$value": "#343A40" },
+    "text": { "$type": "color", "$value": "#F5F2EA" },
+    "textMuted": { "$type": "color", "$value": "#AAB2BA" },
+    "action": { "$type": "color", "$value": "#6FA8FF" },
+    "warning": { "$type": "color", "$value": "#E4AF56" },
+    "danger": { "$type": "color", "$value": "#E07070" }
+  },
+  "space": {
+    "1": { "$type": "dimension", "$value": "4px" },
+    "2": { "$type": "dimension", "$value": "8px" },
+    "3": { "$type": "dimension", "$value": "12px" },
+    "4": { "$type": "dimension", "$value": "16px" },
+    "5": { "$type": "dimension", "$value": "24px" }
+  },
+  "radius": { "sm": { "$type": "dimension", "$value": "6px" }, "md": { "$type": "dimension", "$value": "10px" } }
+}
